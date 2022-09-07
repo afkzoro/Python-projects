@@ -16,13 +16,12 @@ while flag != False:
 
         #Players list of skillsets
         v_skill_set = ["Necromancy", "Hypnosis", "Shapeshifting"]
-        
+
         #Decide
-        vamp_list = int(input("Pick a skill set: 0. Necromancy 1. Hypnosis 2. Shapeshifting\n"))
-        
+        vamp_list = int(input("Pick a skill set: 0.Necromancy\n 1.Hypnosis\n 2.Shapeshifting\n"))
+
         #To be used throughout the story
         skill = v_skill_set[vamp_list]
-  
+
     else:
         print("Please input a correct option!")
-        
