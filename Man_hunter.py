@@ -8,7 +8,7 @@ while flag != False:
 
 	if decide_player == "human":
 		flag = False
-		print(" Amarjeet have chance to fight back Dracula.\n He is going to use their weapons and skills to outwit Dracula.\n He has to find a way to be stronger than his enemy.\n Dracula will try his best to capture Amarjeet alive.\n Amarjeet will do everything he can do and try not to lose at all costs.\n You decide your next steps using 'Y' for Yes and 'N' for No.\n")
+		print(" Amarjeet has a chance to fight back Dracula.\n He is going to use his weapons and skills to outwit Dracula.\n He has to find a way to be stronger than his enemy.\n Dracula will try his best to capture Amarjeet alive.\n Amarjeet will do everything he can do and try not to lose at all costs.\n You decide your next steps using 'Y' for Yes and 'N' for No.\n")
 
 	if decide_player == "vampire":
 		flag = False
