@@ -32,6 +32,19 @@ while flag != False:
             else:
                 print("Please select the correct input")
         
+        skill_set = h_skill_set[hman_list]
+        
+        print("\n The village chief has summoned me to fight the great dracula that has been terrorizing the good people of Creeksville.\n I Amarjeet vows to fight to the death and kill the vampire for good.")
+        
+        #varys for skill set chosen
+        print("\n𝖘𝖐𝖎𝖑𝖑 𝖘𝖊𝖙 𝖉𝖊𝖈𝖎𝖘𝖎𝖔𝖓 𝖎𝖓𝖈𝖔𝖒𝖎𝖓𝖌")
+        if skill_set == "Gun with silver bullets":
+            print("\n🏃I bring out my gun and clean it")
+        elif skill_set == "Arsonry":
+            print("\n🏃You light up the touch with excitment.")
+        elif skill_set == "Holywater":
+            print("\n🏃I sprinkle holywater and make the sign of the cross")
+    
     elif decide_player == "vampire":
         flag = False
         print(" Once released,Dracula is a force to be reckone with.\n His powerful hypnotic abilities makes it easy for him to brainwash his victims and he enjoys playing tricks on those who try to stop him.\n Using the power of necromancy and shapeshifting,he's unmatched in his ability to protect himself from any harm.\n He is thirsty for blood,having never drunk from a human since he has been inprisoned four centuries ago.\n You decide your next steps by using 'Y' for yes and 'N' for no \n")
@@ -61,17 +74,17 @@ while flag != False:
         #To be used throughout the story
         skill = v_skill_set[vamp_list]
         
-        print(" The Great Dracula has finally awoken.\n 'After 400 years i'm alive once again.\n Time to get my revenge on those who trapped me here.' Dracula says\n He attempts to use his powers but realizes he's still weak.\n 'Must gain energy, i can see the blood moon rising', He says.\n He actives an ability with the little strength left.")
-        
+        print("\n The Great Dracula has finally awoken.\n 'After 400 years i'm alive once again.\n Time to get my revenge on those who trapped me here.' Dracula says\n He attempts to use his powers but realizes he's still weak.\n 'Must gain energy, i can see the blood moon rising', He says.\n He actives an ability with the little strength left.")
+        print("\n𝖘𝖐𝖎𝖑𝖑 𝖘𝖊𝖙 𝖉𝖊𝖈𝖎𝖘𝖎𝖔𝖓 𝖎𝖓𝖈𝖔𝖒𝖎𝖓𝖌")
         #Would vary for each skillset
         if  skill == "Necromancy":
-            print("\nWIth his necromancy skill he raised the dead to harvest humans for his enjoyment")
+            print("\n🏃With his necromancy skill he raised the dead to harvest humans for his enjoyment")
         
         elif skill == "Hypnosis":
-            print("\nUsing hynosis he charms a villager and lures him to his den.")
+            print("\n🏃Using hynosis he charms a villager and lures him to his den.")
         
         elif skill == "Telekinesis":
-            print("\nWith his telekinesis. He takes advantage of a passer-by")
+            print("\n🏃With his telekinesis. He takes advantage of a passer-by")
             
         print("\nA group of villagers are killed by a vampire.\n When they wake the next morning, a bunch of villagers run to the village chief.\n The villagers say that there must be someone who can fight this vampire.\n I would send Amarjeet he ends up saying.\n The villages leave feeling relieved.\n")
     else:
