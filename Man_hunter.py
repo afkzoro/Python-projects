@@ -60,6 +60,11 @@ while flag != False:
         
         #To be used throughout the story
         skill = v_skill_set[vamp_list]
+        
+        print(" The Great Dracula has finally awoken.\n 'After 400 years i'm alive once again.\n Time to get my revenge on those who trapped me here.' Dracula says\n He attempts to use his powers but realizes he's still weak.\n 'Must gain energy, i can see the blood moon rising', He says.")
+        
+        #Would vary for each skillset
+        decide1 = input("What would he use to gain energy?\n")
 
     else:
         print("Please input a correct option!")
