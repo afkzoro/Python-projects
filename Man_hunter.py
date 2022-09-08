@@ -37,13 +37,13 @@ while flag != False:
         print(" Once released,Dracula is a force to be reckone with.\n His powerful hypnotic abilities makes it easy for him to brainwash his victims and he enjoys playing tricks on those who try to stop him.\n Using the power of necromancy and shapeshifting,he's unmatched in his ability to protect himself from any harm.\n He is thirsty for blood,having never drunk from a human since he has been inprisoned four centuries ago.\n You decide your next steps by using 'Y' for yes and 'N' for no \n")
 
         #Players list of skillsets
-        v_skill_set = ["Necromancy", "Hypnosis", "Shapeshifting"]
+        v_skill_set = ["Necromancy", "Hypnosis", "Telekinesis"]
         
         flag = True
         
         while flag != False:
             #Decide
-            vamp_list = int(input(" Pick a skill set:\n 0.Necromancy\n 1.Hypnosis\n 2.Shapeshifting\n Pick a number to continue.\n"))
+            vamp_list = int(input(" Pick a skill set:\n 0.Necromancy\n 1.Hypnosis\n 2.Telekinesis\n Pick a number to continue.\n"))
         
             if vamp_list == 0:
                 flag = False
@@ -54,7 +54,7 @@ while flag != False:
                 print("You chose Hypnosis.")
             elif vamp_list == 2:
                 flag = False
-                print("You chose Shapeshifting.")
+                print("You chose Telekinesis.")
             else:
                 print("Please input a correct number")
         
