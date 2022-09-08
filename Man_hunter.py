@@ -1,4 +1,4 @@
-print("Vampire Dracula is finally free.\n Amarjeet has never lost a battle against the undead,but now their fortress is compromised and Dracula is roaming Creeksville.\n It is up to Amarjeet to take the unbeatable monster, but will he be able to contain him? \n")
+print(" Vampire Dracula is finally free.\n Amarjeet has never lost a battle against the undead,but now their fortress is compromised and Dracula is roaming Creeksville.\n It is up to Amarjeet to take the unbeatable monster, but will he be able to contain him? \n")
 
 #Loop conditions
 flag = True
@@ -12,13 +12,13 @@ while flag != False:
 
     elif decide_player == "vampire":
         flag = False
-        print("Once released,Dracula is a force to be reckone with.\n His powerful hypnotic abilities makes it easy for him to brainwash his victims and he enjoys playing tricks on those who try to stop him.\n Using the power of necromancy and shapeshifting,he's unmatched in his ability to protect himself from any harm.\n He is thirsty for blood,having never drunk from a human since he has been inprisoned four centuries ago.\n You decide your next steps by using 'Y' for yes and 'N' for no \n")
+        print(" Once released,Dracula is a force to be reckone with.\n His powerful hypnotic abilities makes it easy for him to brainwash his victims and he enjoys playing tricks on those who try to stop him.\n Using the power of necromancy and shapeshifting,he's unmatched in his ability to protect himself from any harm.\n He is thirsty for blood,having never drunk from a human since he has been inprisoned four centuries ago.\n You decide your next steps by using 'Y' for yes and 'N' for no \n")
 
         #Players list of skillsets
         v_skill_set = ["Necromancy", "Hypnosis", "Shapeshifting"]
 
         #Decide
-        vamp_list = int(input("Pick a skill set: 0.Necromancy\n 1.Hypnosis\n 2.Shapeshifting\n"))
+        vamp_list = int(input("Pick a skill set:\n 0.Necromancy\n 1.Hypnosis\n 2.Shapeshifting\n"))
 
         #To be used throughout the story
         skill = v_skill_set[vamp_list]
