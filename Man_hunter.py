@@ -64,7 +64,15 @@ while flag != False:
         print(" The Great Dracula has finally awoken.\n 'After 400 years i'm alive once again.\n Time to get my revenge on those who trapped me here.' Dracula says\n He attempts to use his powers but realizes he's still weak.\n 'Must gain energy, i can see the blood moon rising', He says.")
         
         #Would vary for each skillset
-        decide1 = input("What would he use to gain energy?\n")
+        if  skill == "Necromancy":
+            print("He raised the dead to harvest humans for his enjoyment")
+        
+        elif skill == "Hypnosis":
+            print("He charms a villager and lures him to his den.")
+        
+        elif skill == "Telekinesis":
+            print("With the ability to nove things with his mind. He takes advantage of a passer-by")
+            
 
     else:
         print("Please input a correct option!")
