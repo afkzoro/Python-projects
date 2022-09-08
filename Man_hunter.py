@@ -95,11 +95,19 @@ while flag != False:
         print("\n𝖘𝖐𝖎𝖑𝖑 𝖘𝖊𝖙 𝖉𝖊𝖈𝖎𝖘𝖎𝖔𝖓 𝖎𝖓𝖈𝖔𝖒𝖎𝖓𝖌")
         if skill == "Necromancy":
             print(" You are finally ready to go to war with the humans.What would you do?")
-            decide1 = int(input("1.Raise an army of the dead to fight\n 2.Let the fight come to you\n"))
+            decide1 = int(input("1.Raise an army of the dead to fight\n2.Let the fight come to you\n"))
+            
+            if decide1 == 1:
+                print("You raised an army of the dead to kill Amarjeet. \nThey won't stop at nothing till they get him")
+                print("\nAmarjeet fought the undead as they kept on respawning.\nHe fell through a hole in the ground and got into the castle.")
             
         elif skill == "Hypnosis":
             print(" You're finally ready to go to war with the the humans. What would your choice be?")
-            decide2 = int(input("1.Capture humans and use them to fight your war \n2.Let the fight come to you\n"))    
+            decide2 = int(input("1.Capture humans and use them to fight your war\n2.Let the fight come to you\n"))
+            
+            if decide2 == 1:
+                print("You charmed a few humans and sent them to kill Amarjeet.")
+                print("\nAmarjeet knocked out the charmed humans.\nGot into the castle in pursuit of the vampire")
         
         elif skill == "Telekinesis":
             print(" You're finally ready to go to war with the the humans. What would your choice be?")
