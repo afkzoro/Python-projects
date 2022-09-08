@@ -82,19 +82,29 @@ while flag != False:
         #Would vary for each skillset
         if  skill == "Necromancy":
             print("\n🏃With his necromancy skill he raised the dead to harvest humans for his enjoyment")
-            print("You're finally ready to go to war with the the humans. What would your choice be?")        
-            decide1 = int(input("1.Raise an army of the dead to fight \n2.Let the fight come to you\n"))        
-        
+           
         elif skill == "Hypnosis":
             print("\n🏃Using hynosis he charms a villager and lures him to his den.")
-            print("You're finally ready to go to war with the the humans. What would your choice be?")
-            decide2 = int(input("1.Capture humans and use them to fight your war \n2.Let the fight come to you\n"))    
         
         elif skill == "Telekinesis":
             print("\n🏃With his telekinesis. He takes advantage of a passer-by")
-            print("You're finally ready to go to war with the the humans. What would your choice be?")
+       
+        print("\nA group of villagers are killed by a vampire.\n When they wake the next morning, a bunch of villagers run to the village chief.\n The villagers say that there must be someone who can fight this vampire.\n I would send Amarjeet he ends up saying.\n The villages leave feeling relieved.\n")
+        print("\n 'I can sense the human coming what is his name?' Dracula says.\n 'He is no match for me. Now to make my next move.' he adds.\n")
+       
+        print("\n𝖘𝖐𝖎𝖑𝖑 𝖘𝖊𝖙 𝖉𝖊𝖈𝖎𝖘𝖎𝖔𝖓 𝖎𝖓𝖈𝖔𝖒𝖎𝖓𝖌")
+        if skill == "Necromancy":
+            print(" You are finally ready to go to war with the humans.What would you do?")
+            decide1 = int(input("1.Raise an army of the dead to fight\n 2.Let the fight come to you\n"))
+            
+        elif skill == "Hypnosis":
+            print(" You're finally ready to go to war with the the humans. What would your choice be?")
+            decide2 = int(input("1.Capture humans and use them to fight your war \n2.Let the fight come to you\n"))    
+        
+        elif skill == "Telekinesis":
+            print(" You're finally ready to go to war with the the humans. What would your choice be?")
             decide3 = int(input("1.Fight the humans\n"))
             
-        print("\nA group of villagers are killed by a vampire.\n When they wake the next morning, a bunch of villagers run to the village chief.\n The villagers say that there must be someone who can fight this vampire.\n I would send Amarjeet he ends up saying.\n The villages leave feeling relieved.\n")
+            
     else:
         print("Please input a correct option!")
