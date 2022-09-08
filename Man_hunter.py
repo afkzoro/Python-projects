@@ -103,7 +103,7 @@ while flag != False:
         
         elif skill == "Telekinesis":
             print(" You're finally ready to go to war with the the humans. What would your choice be?")
-            decide3 = int(input("1.Fight the humans\n"))
+            print("Fight the humans\n")
             
             
     else:
