@@ -73,6 +73,6 @@ while flag != False:
         elif skill == "Telekinesis":
             print("With the ability to nove things with his mind. He takes advantage of a passer-by")
             
-
+        print("A group of villagers are killed by a vampire.\n When they wake the next morning, a bunch of villagers run to the village chief.\n The villagers say that there must be someone who can fight this vampire.\n I would send Amarjeet he ends up saying.\n The villages leave feeling relieved.\n")
     else:
         print("Please input a correct option!")
