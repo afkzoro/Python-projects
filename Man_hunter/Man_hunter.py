@@ -12,7 +12,7 @@ while flag != False:
 		
   		#human skillsets
 		
-		h_skill_set = ["Gun with silver bullets","Arsonry", "Holywater"]
+		h_skill_set = ["Gun with silver bullets","Arsonry","Holywater"]
 		
 		flag = True
 		
