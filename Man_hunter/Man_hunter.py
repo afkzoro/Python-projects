@@ -6,45 +6,45 @@ flag = True
 while flag != False:
     decide_player = input("Pick a game character.\n Type in 'vampire' to be a vampire or 'human' to be human:  \n").lower()
 
-    if decide_player == "human":
-        flag = False
-        print("Amarjeet has a chance to fight back Dracula.\n He is going to use his weapons and skills to outwit Dracula.\n He has to find a way to be stronger than his enemy.\n Dracula will try his best to capture Amarjeet alive.\n Amarjeet will do everything he can do and try not to lose at all costs.\n You decide your next steps using 'Y' for Yes and 'N' for No or by choosing a number from a list of options.\n")
-        
-          #human skillsets
-        
-        h_skill_set = ["Gun with silver bullets","Arsonry", "Holywater"]
-        
-        flag = True
-        
-        while flag != False:
-            
-            #pick skill
-            hman_list = int(input(" Pick a skill set:\n 0.Gun with silver bullets\n 1.Arsonry\n 2.Holywater\n Pick a number to continue\n"))
-            
-            if hman_list == 0:
-                flag = False
-                print("You chose Gun with silver bullets.")
-            elif hman_list == 1:
-                flag = False
-                print("You chose Arsonry.")
-            elif hman_list == 2:
-                flag = False
-                print("You chose Holywater.")
-            else:
-                print("Please select the correct input")
-        
-        skill_set = h_skill_set[hman_list]
-        
-        print("\n The village chief has summoned me to fight the great dracula that has been terrorizing the good people of Creeksville.\n I Amarjeet vows to fight to the death and kill the vampire for good.")
-        
-        #varies for skill set chosen
-        print("\n𝖘𝖐𝖎𝖑𝖑 𝖘𝖊𝖙 𝖉𝖊𝖈𝖎𝖘𝖎𝖔𝖓 𝖎𝖓𝖈𝖔𝖒𝖎𝖓𝖌")
-        if skill_set == "Gun with silver bullets":
-            print("\n🏃I bring out my gun and clean it")
-        elif skill_set == "Arsonry":
-            print("\n🏃You light up the touch with excitment.")
-        elif skill_set == "Holywater":
-            print("\n🏃I sprinkle holywater and make the sign of the cross")
+	if decide_player == "human":
+		flag = False
+		print("Amarjeet has a chance to fight back Dracula.\n He is going to use his weapons and skills to outwit Dracula.\n He has to find a way to be stronger than his enemy.\n Dracula will try his best to capture Amarjeet alive.\n Amarjeet will do everything he can do and try not to lose at all costs.\n You decide your next steps using 'Y' for Yes and 'N' for No or by choosing a number from a list of options.\n")
+		
+  		#human skillsets
+		
+		h_skill_set = ["Gun with silver bullets","Arsonry","Holywater"]
+		
+		flag = True
+		
+		while flag != False:
+			
+			#pick skill
+			hman_list = int(input(" Pick a skill set:\n 0.Gun with silver bullets\n 1.Arsonry\n 2.Holywater\n Pick a number to continue\n"))
+			
+			if hman_list == 0:
+				flag = False
+				print("You chose Gun with silver bullets.")
+			elif hman_list == 1:
+				flag = False
+				print("You chose Arsonry.")
+			elif hman_list == 2:
+				flag = False
+				print("You chose Holywater.")
+			else:
+				print("Please select the correct input")
+		
+		skill_set = h_skill_set[hman_list]
+		
+		print("\n The village chief has summoned me to fight the great dracula that has been terrorizing the good people of Creeksville.\n I Amarjeet vows to fight to the death and kill the vampire for good.")
+		
+		#varies for skill set chosen
+		print("\n𝖘𝖐𝖎𝖑𝖑 𝖘𝖊𝖙 𝖉𝖊𝖈𝖎𝖘𝖎𝖔𝖓 𝖎𝖓𝖈𝖔𝖒𝖎𝖓𝖌")
+		if skill_set == "Gun with silver bullets":
+			print("\n🏃I bring out my gun and clean it")
+		elif skill_set == "Arsonry":
+			print("\n🏃You light up the touch with excitment.")
+		elif skill_set == "Holywater":
+			print("\n🏃I sprinkle holywater and make the sign of the cross")
    
         print("You are finally ready to start the war with you an Dracula.\n What would be your choice be?")
   
