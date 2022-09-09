@@ -59,7 +59,7 @@ while flag != False:
 			print("you drink the water only to find out it was spiked.\n You start hallucinating and then you pass out losing daylight")
 			print("You wake up feeling a bit dizy\n'Was it the water?'you say\n")
 		
-		if dec_2 == "N":
+		elif dec_2 == "N":
 			print("You pass out from dehydration.Losing daylight.")
 			print("You wake up feeling drenched.\nYou notice that rain is failing\nYou drink some of the rain water and it makes you a bit weaker\n'Must continue',you say.")
 		
