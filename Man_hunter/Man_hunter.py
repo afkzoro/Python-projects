@@ -67,26 +67,9 @@ while flag != False:
 		
 		if dec_3 == 1:
 			print("You chose the left path. You come across the undead")
-			if skill_set == "Gun with silver bullets":
-				print("You shot up undead and continue on your path")
-			
-			elif skill_set == "Arsonry":
-				print("You used molotov cocktails to burn the undead")
-			
-			elif skill_set == "Holywater":
-				print("You sprinkle the undead with holy water. Their cursed souls are sent back to hell.")
 		
 		elif dec_3 == 2:
 			print("You chose the right path. Your path is blocked by hypnotized enemies.")
-			if skill_set == "Gun with silver bullets":
-				print("You knock out the charmed humans with the butt of your gun.")
-			
-			elif skill_set == "Arsonry":
-				print("You circle them up in a large wall of fire so they don't reach you.")
-			
-			elif skill_set == "Holywater":
-				print("Holy water is ineffective against them. You sustained some injuries and barely escaped")
-			
 	elif decide_player == "vampire":
 		flag = False
 		print(" Once released,Dracula is a force to be reckone with.\n His powerful hypnotic abilities makes it easy for him to brainwash his victims and he enjoys playing tricks on those who try to stop him.\n Using the power of necromancy and shapeshifting,he's unmatched in his ability to protect himself from any harm.\n He is thirsty for blood,having never drunk from a human since he has been inprisoned four centuries ago.\n You decide your next steps by using 'Y' for yes and 'N' for no or choosing a number from a list of options. \n")
@@ -140,15 +123,18 @@ while flag != False:
 			if decide1 == 1:
 				print("You raised an army of the dead to kill Amarjeet. \nThey won't stop at nothing till they get him")
 				print("\nAmarjeet fought the undead as they kept on respawning.\nHe barely escaped and hid with an old man.\nThe old man shows him a secret path to get the castle")
-			
+			elif decide1 == 2:
+				print("You prepare an army of the undead in to guard the castle")
+    
 		elif skill == "Hypnosis":
 			print(" You're finally ready to go to war with the the humans. What would your choice be?")
 			decide2 = int(input("1.Capture humans and use them to fight your war\n2.Let the fight come to you\n"))
-			
 			if decide2 == 1:
 				print("You charmed a few humans and sent them to kill Amarjeet.")
 				print("\nAmarjeet knocked out the charmed humans.\nGot into the castle in pursuit of the vampire")
-		
+			elif decide2 == 2:
+				print("You summon villagers to guard the castle")
+    
 		elif skill == "Telekinesis":
 			print(" You're finally ready to go to war with the the humans. What would your choice be?")
 			print("Fight the humans\n")
