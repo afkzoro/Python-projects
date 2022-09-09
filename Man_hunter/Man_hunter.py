@@ -44,7 +44,9 @@ while flag != False:
 			print("\n🏃You light up the touch with excitment.")
 		elif skill_set == "Holywater":
 			print("\n🏃I sprinkle holywater and make the sign of the cross")
+   
 		print("You are finally ready to start the war with you an Dracula.\n What would be your choice be?")
+  
 		dec_1 = int(input("\n 1.Wait for Dracula to attack or 2.March straight to the castle. \nType a number to continue. "))
 		if dec_1 == 1:
 			print("You hear an angry mob marching to your home.\n A lot of undead and hypnotized beigns roam the street.\n You hear loud crying from the neighborhood.\n 'i have to act quick,' you say.")
