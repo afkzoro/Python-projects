@@ -10,7 +10,7 @@ while flag != False:
 		flag = False
 		print("Amarjeet has a chance to fight back Dracula.\n He is going to use his weapons and skills to outwit Dracula.\n He has to find a way to be stronger than his enemy.\n Dracula will try his best to capture Amarjeet alive.\n Amarjeet will do everything he can do and try not to lose at all costs.\n You decide your next steps using 'Y' for Yes and 'N' for No or by choosing a number from a list of options.\n")
 		
-		  #human skillsets
+				#human skillsets
 		
 		h_skill_set = ["Gun with silver bullets","Arsonry","Holywater"]
 		
@@ -45,9 +45,9 @@ while flag != False:
 			print("\n🏃You light up the touch with excitment.")
 		elif skill_set == "Holywater":
 			print("\n🏃I sprinkle holywater and make the sign of the cross")
-   
+			
 		print("You are finally ready to start the war with you an Dracula.\n What would be your choice be?")
-  
+		
 		dec_1 = int(input("\n 1.Wait for Dracula to attack or 2.March straight to the castle. \nType a number to continue. "))
 		if dec_1 == 1:
 			print("You hear an angry mob marching to your home.\n A lot of undead and hypnotized beigns roam the street.\n You hear loud crying from the neighborhood.\n 'i have to act quick,' you say.")
@@ -162,6 +162,6 @@ while flag != False:
 			print("Fight the humans\n")
 			
 		print("\nThe village chief went to see Dracula and betrayed his people.\nDracula offers him the elixir of immortality in return the chief offers him prople as soliders.\nThe alliance has been formed!")
-  
+		
 	else:
 		print("Please input a correct option!")
