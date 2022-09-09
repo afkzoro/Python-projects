@@ -55,7 +55,7 @@ while flag != False:
 		if dec_2 == "Y":
 			print("you drink the water only to find out it was spiked.\n You start hallucinating and then you pass out losing daylight")
 		if dec_2 == "N":
-			print("You pass out from dehydration.Losong daylight.")
+			print("You pass out from dehydration.Losing daylight.")
   
 	elif decide_player == "vampire":
 		flag = False
