@@ -36,7 +36,7 @@ while flag != False:
 		
 		print("\n The village chief has summoned me to fight the great dracula that has been terrorizing the good people of Creeksville.\n I Amarjeet vows to fight to the death and kill the vampire for good.")
 		
-		#varys for skill set chosen
+		#varies for skill set chosen
 		print("\n𝖘𝖐𝖎𝖑𝖑 𝖘𝖊𝖙 𝖉𝖊𝖈𝖎𝖘𝖎𝖔𝖓 𝖎𝖓𝖈𝖔𝖒𝖎𝖓𝖌")
 		if skill_set == "Gun with silver bullets":
 			print("\n🏃I bring out my gun and clean it")
