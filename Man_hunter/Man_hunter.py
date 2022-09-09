@@ -63,7 +63,7 @@ while flag != False:
 			print("You pass out from dehydration.Losing daylight.")
 			print("You wake up feeling drenched.\nYou notice that rain is failing\nYou drink some of the rain water and it makes you a bit weaker\n'Must continue',you say.")
 		
-		dec_3 = int(input("You come across a two way path\n 1.To get on the left path 2.To get on the right path\n"))
+		dec_3 = int(input("As you get travel across villages,you come across a two way path\n 1.To get on the left path 2.To get on the right path\n"))
 		
 		if dec_3 == 1:
 			print("You chose the left path. You come across the undead")
