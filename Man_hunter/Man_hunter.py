@@ -167,7 +167,7 @@ while flag != False:
 		elif skill ==  "Hypnosis":
 			print("You hypnotize some of the villagers brought by the chief and command them to attack.")
 		elif skill == "Telekinesis":
-			print("He ")
+			print("You hurl sharp and pointy metallic objects at Amarjeet")
 		print("\nThe village chief went to see Dracula and betrayed his people.\nDracula offers him the elixir of immortality in return the chief offers him prople as soliders.\nThe alliance has been formed!")
 		
 	else:
