@@ -67,6 +67,8 @@ while flag != False:
 		
 		if dec_3 == 1:
 			print("You chose the left path. You come across the undead")
+			if skill_set == "Gun with silver bullets":
+				print("")
    
 		
 		elif dec_3 == 2:
