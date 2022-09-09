@@ -163,7 +163,7 @@ while flag != False:
 			
 		print("\nThe village chief went to see Dracula and betrayed his people.\nDracula offers him the elixir of immortality in return the chief offers him prople as soliders.\nThe alliance has been formed!\nThe Chief brings some villagers for the vampires to feed off.")
 		if skill == "Necromancy":
-	  		print("You awaken the dead and form a colony to attack Amarjeet.")
+			print("You awaken the dead and form a colony to attack Amarjeet.")
 		elif skill ==  "Hypnosis":
 			print("You hypnotize some of the villagers brought by the chief and command them to attack.")
 		elif skill == "Telekinesis":
