@@ -45,8 +45,18 @@ while flag != False:
 		elif skill_set == "Holywater":
 			print("\n🏃I sprinkle holywater and make the sign of the cross")
 		print("You are finally ready to start the war with you an Dracula.\n What would be your choice be?")
-		print("\n 1.Wait for Dracula to attack or 2.March straight to the castle. \nType a number to continue. ")
-		
+		dec_1 = int(input("\n 1.Wait for Dracula to attack or 2.March straight to the castle. \nType a number to continue. "))
+		if dec_1 == 1:
+			print("You hear an angry mob marching to your home.\n A lot of undead and hypnotized beigns roam the street.\n You hear loud crying from the neighborhood.\n 'i have to act quick,' you say.")
+		if dec_1 == 2:
+			print("You gather some items that you wouldu use to get to the vampire's castle.")
+
+		dec_2 =input("You were finally able to escape the village and you were very thirsty.\n You see a near by river. Do you drink from it? Y or N\n").upper()
+		if dec_2 == "Y":
+			print("you drink the water only to find out it was spiked.\n You start hallucinating and then you pass out losing daylight")
+		if dec_2 == "N":
+			print("You pass out from dehydration.Losong daylight.")
+  
 	elif decide_player == "vampire":
 		flag = False
 		print(" Once released,Dracula is a force to be reckone with.\n His powerful hypnotic abilities makes it easy for him to brainwash his victims and he enjoys playing tricks on those who try to stop him.\n Using the power of necromancy and shapeshifting,he's unmatched in his ability to protect himself from any harm.\n He is thirsty for blood,having never drunk from a human since he has been inprisoned four centuries ago.\n You decide your next steps by using 'Y' for yes and 'N' for no or choosing a number from a list of options. \n")
