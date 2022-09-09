@@ -67,44 +67,7 @@ while flag != False:
 		
 		if dec_3 == 1:
 			print("You chose the left path. You come across the undead")
-<<<<<<< HEAD
    
-=======
-			if skill_set == "Gun with silver bullets":
-				print("You shot up the undead.")
-			
-			elif skill_set == "Arsonry":
-				print("You light up the undead with molotov cocktails.")
-			
-			elif skill_set == "Holywater":
-				print("You cleansed their cursed souls with holy water and sent them back to hell.")
-		elif dec_3 == 2:
-			print("You chose the right path. Your path is blocked by hypnotized enemies.")
-			if skill_set == "Gun with silver bullets":
-				print("You knock out the charmed humans with the butt of your gun.")
-			
-			elif skill_set == "Arsonry":
-				print("You circle them up in a large wall of fire so they don't reach you.")
-			
-			elif skill_set == "Holywater":
-				print("Holy water is ineffective against them. You sustained some injuries and barely escaped")
-	elif decide_player == "vampire":
-		flag = False
-		print(" Once released,Dracula is a force to be reckone with.\n His powerful hypnotic abilities makes it easy for him to brainwash his victims and he enjoys playing tricks on those who try to stop him.\n Using the power of necromancy and shapeshifting,he's unmatched in his ability to protect himself from any harm.\n He is thirsty for blood,having never drunk from a human since he has been inprisoned four centuries ago.\n You decide your next steps by using 'Y' for yes and 'N' for no or choosing a number from a list of options. \n")
-		dec_2 =input("You were finally able to escape the village and you were very thirsty.\n You see a near by river. Do you drink from it? Y or N\n").upper()
-		if dec_2 == "Y":
-			print("you drink the water only to find out it was spiked.\n You start hallucinating and then you pass out losing daylight")
-			print("You wake up feeling a bit dizy\n'Was it the water?'you say\n")
-		
-		elif dec_2 == "N":
-			print("You pass out from dehydration.Losing daylight.")
-			print("You wake up feeling drenched.\nYou notice that rain is failing\nYou drink some of the rain water and it makes you a bit weaker\n'Must continue',you say.")
-		
-		dec_3 = int(input("You come across a two way path\n 1.To get on the left path 2.To get on the right path\n"))
-		
-		if dec_3 == 1:
-			print("You chose the left path. You come across the undead")
->>>>>>> 7bd6c9d7a662e0e0dea4b5cffe09e444b368700a
 		
 		elif dec_3 == 2:
 			print("You chose the right path. Your path is blocked by hypnotized enemies.")
@@ -115,7 +78,6 @@ while flag != False:
 				print("You circle them up in a large wall of fire so they don't reach you.")
 			
 			elif skill_set == "Holywater":
-<<<<<<< HEAD
 				print("Holy water is ineffective against them.\nYou sustained some injuries and barely escaped")
 				dec3_1 = input("The holy water is ineffective to them but you manage to distract them. You have to make a decison quick as they are already coming after you. Do you attempt to: 1.fight them or 2.Run")
 				if dec3_1 == 1:
@@ -123,10 +85,6 @@ while flag != False:
 				elif dec3_1 == 2:
 					print("As you attempt to run you, you are dragged in and you barely survived.\nYou end up escaping with an injury on your leg.")
 
-=======
-				print("Holy water is ineffective against them. You sustained some injuries and barely escaped")
-	
->>>>>>> 7bd6c9d7a662e0e0dea4b5cffe09e444b368700a
 	elif decide_player == "vampire":
 		flag = False
 		print(" Once released,Dracula is a force to be reckone with.\n His powerful hypnotic abilities makes it easy for him to brainwash his victims and he enjoys playing tricks on those who try to stop him.\n Using the power of necromancy and shapeshifting,he's unmatched in his ability to protect himself from any harm.\n He is thirsty for blood,having never drunk from a human since he has been inprisoned four centuries ago.\n You decide your next steps by using 'Y' for yes and 'N' for no or choosing a number from a list of options. \n")
