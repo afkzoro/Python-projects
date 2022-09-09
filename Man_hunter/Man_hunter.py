@@ -79,7 +79,7 @@ while flag != False:
 			
 			elif skill_set == "Holywater":
 				print("Holy water is ineffective against them.\nYou sustained some injuries and barely escaped")
-				dec3_1 = input("The holy water is ineffective to them but you manage to distract them. You have to make a decison quick as they are already coming after you. Do you attempt to: 1.fight them or 2.Run")
+				dec3_1 = int(input("The holy water is ineffective to them but you manage to distract them.\nYou have to make a decison quick as they are already coming after you.\nDo you attempt to: 1.fight them or 2.Run\n"))
 				if dec3_1 == 1:
 					print("You attempt to fight them and you barely surive.\n They chase after you after inflicting injuries to your face and scratches on your hand\n That is going to hurt a lot isn't.\n")
 				elif dec3_1 == 2:
