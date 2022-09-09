@@ -67,6 +67,7 @@ while flag != False:
 		
 		if dec_3 == 1:
 			print("You chose the left path. You come across the undead")
+   
 		
 		elif dec_3 == 2:
 			print("You chose the right path. Your path is blocked by hypnotized enemies.")
@@ -77,8 +78,13 @@ while flag != False:
 				print("You circle them up in a large wall of fire so they don't reach you.")
 			
 			elif skill_set == "Holywater":
-				print("Holy water is ineffective against them. You sustained some injuries and barely escaped")
-    
+				print("Holy water is ineffective against them.\nYou sustained some injuries and barely escaped")
+				dec3_1 = input("The holy water is ineffective to them but you manage to distract them. You have to make a decison quick as they are already coming after you. Do you attempt to: 1.fight them or 2.Run")
+				if dec3_1 == 1:
+					print("You attempt to fight them and you barely surive.\n They chase after you after inflicting injuries to your face and scratches on your hand\n That is going to hurt a lot isn't.\n")
+				elif dec3_1 == 2:
+					print("As you attempt to run you, you are dragged in and you barely survived.\nYou end up escaping with an injury on your leg.")
+
 	elif decide_player == "vampire":
 		flag = False
 		print(" Once released,Dracula is a force to be reckone with.\n His powerful hypnotic abilities makes it easy for him to brainwash his victims and he enjoys playing tricks on those who try to stop him.\n Using the power of necromancy and shapeshifting,he's unmatched in his ability to protect himself from any harm.\n He is thirsty for blood,having never drunk from a human since he has been inprisoned four centuries ago.\n You decide your next steps by using 'Y' for yes and 'N' for no or choosing a number from a list of options. \n")
