@@ -159,7 +159,7 @@ while flag != False:
 				print("You summon villagers to guard the castle")
 	
 		elif skill == "Telekinesis":
-			print("coYou're finally ready to go to war with the the humans.\n You get ready to fight the humans.\n")
+			print("You're finally ready to go to war with the the humans.\n You get ready to fight the humans.\n")
 			
 		print("\nThe village chief went to see Dracula and betrayed his people.\nDracula offers him the elixir of immortality in return the chief offers him prople as soliders.\nThe alliance has been formed!\nThe Chief brings some villagers for the vampires to feed off.")
 		if skill == "Necromancy":
