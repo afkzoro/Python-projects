@@ -170,6 +170,6 @@ while flag != False:
 		elif skill == "Telekinesis":
 			print("You hurl sharp and pointy metallic objects at Amarjeet.\n'That should get him or at least keep him busy,he has been escaping all my attacks',you say.")
 		print("\nThe village chief went to see Dracula and betrayed his people.\nDracula offers him the elixir of immortality in return the chief offers him prople as soliders.\nThe alliance has been formed!")
-		
+		print("'Humans are so weak,for the elixir of immortality,this Chief has brought his people to serve me.'\n'Humans can never be gods!'")
 	else:
 		print("Please input a correct option!")
