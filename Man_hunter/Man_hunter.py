@@ -91,7 +91,8 @@ while flag != False:
 					print("You attempt to fight them and you barely surive.\n They chase after you after inflicting injuries to your face and scratches on your hand\n That is going to hurt a lot isn't.\n")
 				elif dec3_1 == 2:
 					print("As you attempt to run you, you are dragged in and you barely survived.\nYou end up escaping with an injury on your leg.")
-
+		
+		dec_4 = int(input(""))
 	elif decide_player == "vampire":
 		flag = False
 		print(" Once released,Dracula is a force to be reckone with.\n His powerful hypnotic abilities makes it easy for him to brainwash his victims and he enjoys playing tricks on those who try to stop him.\n Using the power of necromancy and shapeshifting,he's unmatched in his ability to protect himself from any harm.\n He is thirsty for blood,having never drunk from a human since he has been inprisoned four centuries ago.\n You decide your next steps by using 'Y' for yes and 'N' for no or choosing a number from a list of options. \n")
